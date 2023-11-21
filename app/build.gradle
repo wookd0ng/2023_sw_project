@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.example.bottomnavi'
-    compileSdkVersion 33
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.example.bottomnavi"

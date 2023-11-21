@@ -50,7 +50,7 @@ public class Frag1 extends Fragment {
             @Override
             public void onClick(View v) {
                 // "posts" 아래의 데이터를 orderByKey().limitToLast(1)를 사용하여 가장 최근 데이터 1개만 가져오기
-                Query lastQuery = databaseReference.orderByKey().limitToLast(4);
+                Query lastQuery = databaseReference.orderByKey().limitToLast(5);
                 ((Query) lastQuery).addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
